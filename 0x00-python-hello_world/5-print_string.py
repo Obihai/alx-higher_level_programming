@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 str = "Holberton School"
-print(3 * str + "\nHolberton")
+sliced = str[:9]
+print(str*3)
+print(sliced)
